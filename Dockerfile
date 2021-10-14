@@ -1,4 +1,4 @@
-FROM redhat/ubi8-minimal
+FROM ubuntu:latest
 
 COPY aptly_ubuntu.conf aptly_debian.conf regula.gpg /home/
 
